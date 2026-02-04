@@ -1,0 +1,7 @@
+timestamp_utc,mode,hostname,kernel,cpu_model,sockets,cores_per_socket,threads_total,numa_nodes,mem_total_gb,cpu_mhz,governor,compiler,array_mb,ntimes,omp_threads,copy_mb_s,scale_mb_s,add_mb_s,triad_mb_s,
+2026-02-04T21:30:06Z,stream,node-x,6.8.0-60-generic,11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz,1,4,8,1,15,35,,powersave,cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0,1024,5,1,14858,10472.7,10685.9,10459.2
+2026-02-04T21:30:10Z,stream,node-x,6.8.0-60-generic,11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz,1,4,8,1,15,35,,powersave,cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0,1024,5,2,24775.9,16672.4,16699.2,16229.2
+2026-02-04T21:30:11Z,stream,node-x,6.8.0-60-generic,11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz,1,4,8,1,15,35,,powersave,cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0,1024,5,4,30555.6,22436.1,25250.3,21509.6
+2026-02-04T21:30:13Z,stream,node-x,6.8.0-60-generic,11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz,1,4,8,1,15,35,,powersave,cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0,1024,5,8,24084.9,20311.9,19945.3,18637.8
+2026-02-04T21:30:15Z,stream,node-x,6.8.0-60-generic,11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz,1,4,8,1,15,35,,powersave,cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0,1024,5,16,31207,23637.9,24427.7,22984
+2026-02-04T21:30:16Z,stream,node-x,6.8.0-60-generic,11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz,1,4,8,1,15,35,,powersave,cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0,1024,5,32,31099.7,21862.6,23394.1,19397.3
