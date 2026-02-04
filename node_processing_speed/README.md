@@ -1,7 +1,7 @@
-**Benchmarking Kit** to calibrate your `processing_speed` (CPU/GPU) across **IoT / Edge / Cloud / HPC** nodes using simple, reproducible microbenchmarks.
+# Processing Speed Mini Benchmark
 
-Design goals:
-
+**Benchmarking Kit** Design goals:
+To calibrate `processing_speed` (CPU/GPU) across **IoT / Edge / Cloud / HPC** nodes using simple, reproducible microbenchmarks.
 * **Portable** (works from IoT to HPC)
 * **Minimal dependencies** (fallbacks if BLAS/CUDA not available)
 * Produces a **speed index** that can store in JSON as `processing_speed`
@@ -131,7 +131,7 @@ bash scripts/run_all.sh
 
 ## Optional: To integrate into MILP plugin system's input JSON format
 
-Once you have baseline CPU GFLOP/s (say node_name), you can generate per-node calibration:
+Once have baseline CPU GFLOP/s (say node_name), generate per-node calibration:
 
 ```bash
 python scripts/collect_to_json.py \
@@ -153,8 +153,8 @@ Then set in nodes JSON:
 
 ## Notes
 
-* STREAM gives a **memory bandwidth index**; DGEMM gives a **compute throughput index**. Use DGEMM for `processing_speed` if your task `duration` is compute-dominated.
-* If your workflows are **memory-bound**, consider using STREAM Triad to scale `duration` instead, or combine both via a weighted model (we can add this later, but keep the baseline simple first).
+* STREAM gives a **memory bandwidth index**; DGEMM gives a **compute throughput index**. Use DGEMM for `processing_speed` if task `duration` is compute-dominated.
+* If workflows are **memory-bound**, consider using STREAM Triad to scale `duration` instead, or combine both via a weighted model (we can add this later, but keep the baseline simple first).
 * For GPUs, cuBLAS DGEMM is an acceptable microbenchmark for a “speed index”; HPL-AI is closer to AI workloads but harder to deploy.
 
 ---
