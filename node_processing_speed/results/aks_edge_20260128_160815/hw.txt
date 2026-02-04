@@ -1,0 +1,56 @@
+==== Host ====
+aks_edge
+Linux aks_edge 6.8.0-60-generic #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+==== CPU ====
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           11th Gen Intel(R) Core(TM) i5-1145G7 @ 2.60GHz
+CPU family:                           6
+Model:                                140
+Thread(s) per core:                   2
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             1
+CPU(s) scaling MHz:                   25%
+CPU max MHz:                          4400,0000
+CPU min MHz:                          400,0000
+BogoMIPS:                             2995,20
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 .... md_clear ibt flush_l1d arch_capabilities
+Virtualization:                       VT-x
+L1d cache:                            192 KiB (4 instances)
+L1i cache:                            128 KiB (4 instances)
+L2 cache:                             5 MiB (4 instances)
+L3 cache:                             8 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-7
+...
+
+==== Memory ====
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       5,1Gi       6,4Gi       1,3Gi       5,5Gi       6,3Gi
+
+
+==== Disks ====
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0     4K  1 loop /snap/bare/5
+loop1         7:1    0  79,8M  1 loop /snap/cheese/76
+loop2         7:2    0 332,2M  1 loop /snap/code/219
+loop3         7:3    0  79,8M  1 loop /snap/cheese/78
+loop4         7:4    0 332,2M  1 loop /snap/code/220
+loop5         7:5    0   105M  1 loop /snap/core/17272
+loop6         7:6    0 104,2M  1 loop /snap/core/17247
+...
+                                      /
+
+==== Network interfaces ====
+lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> 
+...
+
+==== GPU ====
+No NVIDIA GPU / nvidia-smi not available

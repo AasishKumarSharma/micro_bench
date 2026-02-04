@@ -1,0 +1,15 @@
+{
+  "result_dir": "results/aks_edge_20260128_160815",
+  "baseline": {
+    "label": "baseline_cpu",
+    "cpu_gflops": 250.0
+  },
+  "measured": {
+    "cpu_gflops": 75.95,
+    "gpu_gflops": null,
+    "stream_triad_mbps": 11360.9
+  },
+  "processing_speed": {
+    "CPU": 0.3038
+  }
+}

@@ -1,0 +1,6 @@
+STREAM_ARRAY_SIZE=10000000
+Kernel      Best MB/s
+Copy         15929.75
+Scale        10724.55
+Add          11399.24
+Triad        11360.90

@@ -1,0 +1,17 @@
+## python3 -m venv venv-bench
+## source venv-bench/bin/activate
+## pip install -r requirements.txt
+##-------------------
+
+## Check for:
+## python3-pip
+## build-essential 
+
+## Required:
+numactl
+numpy>=1.21
+pandas>=1.4
+libopenblas-dev 
+
+## GPU (optional)
+nvidia-cuda-toolkit
