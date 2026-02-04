@@ -1,4 +1,4 @@
-# Mini Benchmark Suite — System Capability Baselines
+# Mini Benchmark Suite
 
 ## Purpose
 
